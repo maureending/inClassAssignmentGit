@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, SecondActivity.class);
         intent.putExtra("studentList", studentList);
+        studentList = new ArrayList<>();
         //studentList = new ArrayList<>();
         startActivity(intent);
     }
